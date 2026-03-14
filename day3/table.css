@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    box-shadow:  5px 5px 10px gray;
+    border-collapse: collapse;
+    border-bottom: rgb(128, 180, 128) 4px solid ;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+tr:nth-child(2) {
+    background-color: darkgray;
+    color: green;
+   border-top: gray solid 1px;
+   border-bottom: gray solid 1px;
+}
+tr:nth-child(1) th:nth-child(1){
+    background-color: rgb(128, 180, 128);
+    height: 60px;
+    border-collapse: collapse;
+    border-radius: 20px 0 0 0;
+    color: whitesmoke;
+}
+tr:nth-child(1) th:nth-child(2){
+    background-color: rgb(128, 180, 128);
+    
+    border-collapse: collapse;
+    color: whitesmoke;
+}
+tr:nth-child(1) th:nth-child(3){
+    background-color: rgb(128, 180, 128);
+    
+    border-collapse: collapse;
+    color: whitesmoke;
+}
+tr:nth-child(1) th:nth-child(4){
+    background-color: rgb(128, 180, 128);
+    
+    border-collapse: collapse;
+    color: whitesmoke;
+    border-radius: 0 20px 0 0;
+}
