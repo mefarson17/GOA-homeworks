@@ -1,0 +1,14 @@
+body{
+    background-color: blanchedalmond;
+    color: green;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    
+}
+#bomb {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
