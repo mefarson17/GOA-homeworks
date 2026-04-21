@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Young Serif;
+}
+p{
+    font-size: 16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: hsl(30, 54%, 90%);
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    padding: 20px;
+}
+.image {
+    border-radius: 20px;
+    width:650px ;
+    height:300px;
+}
+figcaption{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+}
+.inf1 {
+    margin-top: 20px;
+}
+.prep {
+    height: 100px;
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.prep h3 {
+    color:hsl(332, 51%, 32%) ;
+}
+.prep ul {
+    margin-left: 30px;
+    margin-top: 10px;
+     display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ingredients {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    height: 150px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.ingredients h2{
+    color: hsl(332, 51%, 32%);
+}
+.ingredients ul {
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.instructions{
+    border-bottom:1px solid hsl(30, 18%, 87%);
+    margin-top: 10px;
+    height: 270px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.instructions h2{
+    color: hsl(332, 51%, 32%);}
+
+.instructions ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+.nutriton {
+
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.nutriton h2{
+    color: hsl(332, 51%, 32%);
+}
+.cxrili  {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+@media (max-width:380px) {
+    body{
+        height: 1000px;
+    }
+    .main {
+        margin: 0;
+        width:360px ;
+        height: 1900px;
+    }
+    .image {
+        width: 360px;
+    }
+    .instructions{
+        height: 550px;
+    }
+}
