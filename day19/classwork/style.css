@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Outfit";
+    color: hsl(0, 0%, 100%);
+}
+body {
+    background-color:  hsl(217, 54%, 11%);
+}
+.mainSquare{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+}
+.mainBox {
+   
+    background-color: hsl(216, 50%, 16%);
+    box-shadow:  0 10px 30px black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+}
+.picBox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.over{
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    height: 300px;
+    border-radius: 15px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.picBox:hover .over {
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+.over img {
+    opacity: 0;
+    transition: 0.4s;
+}
+.picBox:hover .over img{
+    opacity: 1;
+}
+#poto {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: block;
+}
+.equilibrium {
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+.equilibrium h2 {
+    margin-bottom: 15px;
+}
+.equilibrium p{
+    color: hsl(215, 28%, 60%);
+    line-height: 1.5;
+}
+.ETH {
+    border-bottom: 1px solid  hsl(215, 32%, 27%);
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+.ETH p{
+    color:hsl(178, 100%, 50%) ;
+}
+.eth {
+    display: flex;
+    gap: 5px;
+    
+}
+.days{
+    
+    display: flex;
+    gap:5px;
+}
+.days span {
+    color:hsl(215, 28%, 60%) ;
+}
+#avatar{
+    width: 40px;
+}
+.footer{
+    
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.footer p {
+    margin-left: 20px;
+    color: hsl(215, 28%, 60%);
+}
+.footer span{
+    color: white;
+}
