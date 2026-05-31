@@ -164,4 +164,6 @@ console.log(student1.getInfo())
 console.log(student1.getGrade())
 
 student1.setGrade(150)
-console.log(student1.getGrade())
+console.log(student1.getGrade())     
+
+const ragaca = function (){}

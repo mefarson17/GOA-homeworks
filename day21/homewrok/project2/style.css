@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation {
+    background-color: #2B2855;
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navigation nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+#navigation nav ul button {
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #7D79B2;
+    border-right:1px solid #7D79B2  ;
+    border-left: 1px solid  #7D79B2;
+    background-color: #2B2855;
+    font-size: 20px;
+}
+#main-box{
+    /* border: 1px solid yellow; */
+    display: flex;
+    gap: 900px;
+    background-color: #2B2855 ;
+}
+#image{
+    width: 150px;
+}
+#logo{
+    margin-left: 10px;
+    /* border: 1px solid green; */
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#slideShow{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+#prev {
+    position: absolute;
+    width: 90px;
+    height: 500px;
+    opacity: 0.5;
+    font-size: large;
+    font-weight: bold;
+    background-color: #23204A;
+    border: none;
+}
+#next {
+    position: absolute;
+    width: 90px;
+    height: 500px;
+    opacity: 0.5;
+    font-size: large;
+    font-weight: bold;
+    background-color: #23204A;
+    border: none;
+    margin-left: 1830px;
+}
+#back {
+    width: 100%;
+    height: 100%;
+    background-image: url("WALL1.avif");
+    background-size: cover;       /* fills the whole screen */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* no tiling */
+}

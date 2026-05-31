@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+#card {
+    display: none;
+    overflow: hidden;
+   height: 550px;
+   width: 250px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;  */
+   gap: 20px;
+   text-align: center;
+   transition:2s;
+}
+#fridge {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+#action-btn {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 200px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+#main-title{
+    margin: 20px;
+}
+#starter{
+    font-size: 50px;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
