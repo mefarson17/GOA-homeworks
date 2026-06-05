@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="todo">
+          <p>TO-DO List 📑</p>
+        </div>
+        <div class="add">
+          <form onsubmit="">
+            <input
+              type="text"
+              name="task"
+              id="task"
+              placeholder="Add your task"
+            />
+            <button type="submit" id="sub">ADD</button>
+          </form>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <button class="circle" id="button1"></button>
+              <p class="listText">Learn Javascript</p>
+              <button class="x">X</button>
+            </li>
+            <li>
+              <button class="circle" id="button2"></button>
+              <p class="listText">Learn Javascript</p>
+              <button class="x">X</button>
+            </li>
+            <li>
+              <button class="circle" id="button3"></button>
+              <p class="listText">Learn Javascript</p>
+              <button class="x">X</button>
+            </li>
+            <li>
+              <button class="circle" id="button4"></button>
+              <p class="listText">Learn Javascript</p>
+              <button class="x">X</button>
+            </li>
+            <li>
+              <button class="circle" id="button5"></button>
+              <p class="listText">Learn Javascript</p>
+              <button class="x">X</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

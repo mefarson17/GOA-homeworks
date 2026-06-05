@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background-color: #1e4688;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  aspect-ratio: 3/4;
+  width: 20svw;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.todo {
+  font-size: large;
+  width: 100%;
+}
+.add {
+  width: 100%;
+}
+.add form {
+  height: 30px;
+  position: relative;
+}
+.add form input {
+  background-color: #d3dad8;
+  padding: 10px 50px 10px 15px;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.add form button {
+  color: white;
+  background-color: #d5633f;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  border-radius: 20px;
+}
+.add form button:hover {
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+li .x {
+  margin-left: auto;
+}
+li .circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  aspect-ratio: 1;
+  border: 2px solid #d3dad8;
+}
+li button:hover {
+  cursor: pointer;
+}
+/* 
+.done .circle{
+    background-color: #d5633f;
+    border: none;
+}
+.done .circle::after{
+    content: "👌";
+}
+.done p{
+    text-decoration: line-through;
+    color: #d3dad8;
+} */
+.x {
+    border: none;
+    background-color: white;
+    height: 20px;
+    width: 30px;
+}
+.hide{
+  display: none;
+}
