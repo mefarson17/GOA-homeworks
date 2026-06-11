@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+h1, h2, h3 { font-family: 'Playfair Display', serif; }
+:root {
+  --night: #0d1b2a; /* მუქი ლურჯი ფონი */
+  --gold: #c9a84c; /* ოქროსფერი */
+  --gold-lt: #e4c97a; /* ღია ოქრო (hover) */
+  --cream: #f5edd8; /* კრემი — ძირითადი ტექსტი */
+  --green: #2d4a3e; /* მუქი მწვანე */
+}
+nav {
+  height: 90px;
+  background: rgba(13, 27, 42, 0.4);
+  backdrop-filter: blur(12px);
+  width: 100vw;
+  position: fixed;
+  border-bottom: 1px solid var(--cream);
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  font-size: large;
+  color: var(--cream);
+}
+.navbut {
+  background: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: var(--cream);
+  font-size: large;
+}
+.navbut:hover {
+  cursor: pointer;
+  color: var(--gold);
+}
+.book {
+  background-color: var(--gold);
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 50%;
+}
+nav span {
+  color: var(--gold);
+}
+.main {
+  background:
+    radial-gradient(
+      ellipse 70% 60% at 50% 40%,
+      rgba(44, 74, 62, 0.55) 0%,
+      transparent 70%
+    ),
+    linear-gradient(180deg, #0d1b2a 0%, #142030 60%, #0d1b2a 100%);
+  height: 100vh;
+}
+.satauri {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--cream);
+}
+.satauri span {
+  color: var(--gold);
+}
+.textInSatauri {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.tb {
+  word-spacing: 20px;
+  color: var(--gold);
+}
+.Italian {
+  text-align: center;
+  width: 350px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: var(--cream);
+}
+.btn {
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+.btn button:hover {
+  cursor: pointer;
+}
+#menubtn {
+  width: 150px;
+  border: none;
+  background-color: var(--gold);
+  font-size: larger;
+  border-radius: 10px;
+}
+#callbtn {
+  width: 150px;
+  background: none;
+  border: 1px solid var(--gold-lt);
+  color: var(--cream);
+  font-size: larger;
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+.secondfloor {
+  height: 700px;
+  display: flex;
+}
+.candel {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  background-color: var(--green);
+}
+.history {
+  width: 50%;
+  border: 1px solid black;
+  padding: 100px;
+  background-color: var(--cream);
+}
+.history div {
+  margin-top: 20px;
+  width: 600px;
+  line-height: normal;
+  word-spacing: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+}
+.thirdfloor {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: var(--night);
+  overflow: hidden;
+}
+.griduni1 {
+  border-right: 1px solid var(--gold-lt);
+  grid-column-start: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  gap: 20px;
+  text-align: center;
+  font-size: larger;
+  color: var(--cream);
+}
+.griduni2 {
+  border-right: 1px solid var(--gold-lt);
+  grid-column-start: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  gap: 20px;
+  text-align: center;
+  font-size: larger;
+  color: var(--cream);
+}
+.griduni3 {
+  grid-column-start: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  gap: 20px;
+  text-align: center;
+  font-size: larger;
+  color: var(--cream);
+}
+footer {
+  border-top: 1px solid var(--gold-lt);
+  height: 100px;
+  display: flex;
+  background-color: #0d1b2a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 50%;
+}
+footer h2{
+  color: var(--gold);
+}
+footer p{
+  color: var(--gold-lt);
+}
